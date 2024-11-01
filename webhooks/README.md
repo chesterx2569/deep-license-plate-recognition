@@ -11,6 +11,7 @@ Plate Recognizer lets you forward the inference results to a third party. Here a
   - [Sending Data to the Webhook Receiver](#sending-data-to-the-webhook-receiver)
   - [Home Assistant](#home-assistant)
   - [Webhook via AWS Lambda](#webhook-via-aws-lambda)
+  - [Webhook Middleware](#webhook-middleware)
 
 ## Sample Code
 
@@ -66,3 +67,6 @@ docker run -e URL=http://MY_IP_ADDRESS:8001 platerecognizer/webhook-tester
 
 ## Webhook via AWS Lambda
 [This guide](webhook_lambda/) aims to provide you with a minimum sample to receive webhook data from Snapshot/Stream on your AWS Lambda instance.
+
+## Webhook Middleware
+[This guide](https://guides.platerecognizer.com/docs/stream/integrations) will help you integrate webhooks into your applications.
