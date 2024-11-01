@@ -59,7 +59,7 @@ docker run -e URL=http://MY_IP_ADDRESS:8001 platerecognizer/webhook-tester
 
 3. Configure the webhook on Platerecognizer.
    - In Stream, edit your `config.ini`, add the following to a camera: `webhook_target = http://MY_IP_ADDRESS:8001/`
-   - For Snapshot, open [Webhooks Configuration](https://app.platerecognizer.com/accounts/webhooks/).
+   - For Snapshot, open [Webhooks Configuration](https://app.platerecognizer.com/service/snapshot-cloud/webhooks/).
 
 ## Home Assistant
 
