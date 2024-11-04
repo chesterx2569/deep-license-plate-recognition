@@ -13,3 +13,5 @@ env.txt
 output/
 
 .env
+
+.fake
